@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("/img/início.jpg"); 
+    background-repeat: no-repeat;
+     background-size: cover;
+     height: 100VH;
+}
+
+
+.botao{
+    display: flex;
+    justify-content: end;
+    position: relative;
+    top: 550px;
+     
+    
+}
+
+.iniciar{
+    border: none;
+    padding: 10px;
+    outline: none;
+    color: #fff;
+    background: linear-gradient(135deg,#720918,#db2727,#ff6524, #db2727, #720918 );
+    border-radius: 10px;
+    width:150px;
+    
+}
+
+a:link {
+    color:#ff0000;
+    text-decoration:none;
+  }
+  a:visited {
+    color:#fff;
+    text-decoration:none;
+  }
+  a:hover {
+    color:#db2727;
+    text-decoration:none;
+  }
+ 
