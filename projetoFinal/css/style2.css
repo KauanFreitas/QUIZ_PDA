@@ -1,0 +1,103 @@
+
+body {
+
+     height: 100vh;
+     overflow-x: hidden;
+     background: linear-gradient(135deg,rgb(0, 60, 150),rgb(31, 95, 191),rgb(57, 102, 168));
+}
+
+main{
+    height: 100%;
+   
+}
+.iniciar{
+    border: none;
+    padding: 10px;
+    outline: none;
+    color: #fff;
+    background: linear-gradient(135deg,#720918,#db2727,#ff6524, #db2727, #720918 );
+    border-radius: 10px;
+    width:150px;
+}
+
+.display{
+    display: flex;  
+    height: 100%;
+    justify-content: space-between;
+}
+.perguntas{ 
+    width: 600px;
+    background: linear-gradient(135deg,#720918,#db2727,#ff6524, #db2727, #720918 );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    border-radius: 19px;
+
+}
+.perguntas p{
+
+}
+.display-middle{
+    height: 70%;
+    margin-left: 80px;
+
+}
+.display-left,
+.display-middle,
+.display-rigth{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.display-left img{
+    width: 290px;
+    position: relative;
+    right:40px;
+    top:-50px;
+}
+.display-rigth img{
+    width: 350px;
+}
+.pontuacao{
+    text-align: center;
+    font-size: 35px;
+    color: white;
+
+}
+.pontuacao p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.iniciar{
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+
+}
+.opcoes{}
+.opcao{
+    background: linear-gradient(135deg,#720918,#db2727,#ff6524, #db2727, #720918 );
+    border-radius: 25px;
+    height: 60px;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.opcao:hover{
+    cursor: pointer;
+}
+
+.opcao span{
+    background-color: white;
+    border-radius: 50%;
+    color: black;
+    width: 35px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 5px;
+}

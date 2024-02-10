@@ -5,10 +5,10 @@
 }
 
 body {
-    background-image: url("/img/início.jpg"); 
+    background-image: url(../img/inicio.jpg); 
     background-repeat: no-repeat;
      background-size: cover;
-     height: 100VH;
+     height: 100vh;
 }
 
 
