@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -9,6 +10,7 @@ body {
      background-size: cover;
      height: 100vh;
      background: linear-gradient(135deg,rgb(0, 60, 150),rgb(31, 95, 191),rgb(57, 102, 168));
+     font-family: 'Roboto', sans-serif;
 
 }
 .main-img{
@@ -21,20 +23,19 @@ body {
   align-items: center;
 
 }
-.botao{
-  margin-left: 88%;
-}
 
 .iniciar{
     font-size: 32px;
-    padding:10px 30px 10px 30px;
+    padding:10px 70px 10px 70px;
     color: #fff;
     background: linear-gradient(135deg,#720918,#db2727,#ff6524, #db2727, #720918 );
     border-radius: 10px;
-    width:190px;
+
     text-decoration: none;
+    width:50%;
+
     
-}
+} 
 
 .iniciar:hover{
   border: 3px solid white;
