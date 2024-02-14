@@ -26,11 +26,12 @@ main{
     justify-content: space-between;
 }
 .perguntas{ 
-    width: 600px;
-    background: linear-gradient(135deg,#720918,#db2727,#ff6524, #db2727, #720918 );
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 600px;
+    height: 127px;
+    background: linear-gradient(135deg,#720918,#db2727,#ff6524, #db2727, #720918 );
     color: white;
     font-size: 40px;
     font-weight: 700;
@@ -40,17 +41,18 @@ main{
 .perguntas p{
 
 }
-.display-middle{
-    height: 70%;
-    margin-left: 80px;
 
-}
 .display-left,
 .display-middle,
 .display-rigth{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+.display-middle{
+    height: 70%;
+    margin-left: 80px;
+
 }
 .display-left img{
     width: 290px;
@@ -77,7 +79,12 @@ main{
     font-size: 25px;
 
 }
-.opcoes{}
+.opcoes{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
 .opcao{
     background: linear-gradient(135deg,#720918,#db2727,#ff6524, #db2727, #720918 );
     border-radius: 25px;
@@ -86,10 +93,11 @@ main{
     font-size: 30px;
     display: flex;
     align-items: center;
-    margin-bottom: 15px;
 }
 .opcao:hover{
     cursor: pointer;
+    border: 1px solid white;
+
 }
 
 .opcao span{

@@ -5,43 +5,37 @@
 }
 
 body {
-    background-image: url(../img/inicio.jpg); 
     background-repeat: no-repeat;
      background-size: cover;
      height: 100vh;
+     background: linear-gradient(135deg,rgb(0, 60, 150),rgb(31, 95, 191),rgb(57, 102, 168));
+
 }
+.main-img{
+  width: 564px;
+} 
+.main{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
-
+}
 .botao{
-    display: flex;
-    justify-content: end;
-    position: relative;
-    top: 550px;
-     
-    
+  margin-left: 88%;
 }
 
 .iniciar{
-    border: none;
-    padding: 10px;
-    outline: none;
+    font-size: 32px;
+    padding:10px 30px 10px 30px;
     color: #fff;
     background: linear-gradient(135deg,#720918,#db2727,#ff6524, #db2727, #720918 );
     border-radius: 10px;
-    width:150px;
+    width:190px;
+    text-decoration: none;
     
 }
 
-a:link {
-    color:#ff0000;
-    text-decoration:none;
-  }
-  a:visited {
-    color:#fff;
-    text-decoration:none;
-  }
-  a:hover {
-    color:#db2727;
-    text-decoration:none;
-  }
- 
+.iniciar:hover{
+  border: 3px solid white;
+}
