@@ -1,9 +1,10 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
 body {
 
      height: 100vh;
      overflow-x: hidden;
      background: linear-gradient(135deg,rgb(0, 60, 150),rgb(31, 95, 191),rgb(57, 102, 168));
+     font-family: 'Roboto', sans-serif;
 }
 
 main{
@@ -20,10 +21,12 @@ main{
     width:150px;
 }
 
+
 .display{
     display: flex;  
     height: 100%;
     justify-content: space-between;
+    
 }
 .perguntas{ 
     display: flex;
@@ -51,7 +54,6 @@ main{
 }
 .display-middle{
     height: 70%;
-    margin-left: 80px;
 
 }
 .display-left img{
@@ -60,12 +62,12 @@ main{
     right:40px;
     top:-50px;
 }
-.display-rigth img{
-    width: 350px;
+.display-rigth{
+    width: 290px;
 }
 .pontuacao{
     text-align: center;
-    font-size: 35px;
+    font-size: 50px;
     color: white;
 
 }
@@ -80,7 +82,7 @@ main{
 
 }
 .opcoes{
-    height: 250px;
+    height: 280px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -93,6 +95,15 @@ main{
     font-size: 30px;
     display: flex;
     align-items: center;
+}
+.gradient {
+    background: linear-gradient(135deg,green,rgb(29, 161, 29),rgb(21, 195, 21),rgb(42, 198, 42),green);
+
+}
+.gradient-vermelho{
+
+    background: rgb(62, 1, 1);
+    
 }
 .opcao:hover{
     cursor: pointer;
