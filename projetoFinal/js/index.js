@@ -3,7 +3,12 @@ const btn1 = document.getElementById('opcao-1');
 const btn2 = document.getElementById('opcao-2');
 const btn3 = document.getElementById('opcao-3');
 const btn4 = document.getElementById('opcao-4');
-
+const telaMain = document.getElementsByClassName('main')[0]
+const telaPerguntas = document.getElementsByClassName('display')[0];
+const telaFinal = document.getElementsByClassName('resultado-final')[0];
+const estatistica = document.getElementById('estatistica');
+const resultadoTitulo = document.getElementsByClassName('resultado-titulo')[0]
+const mainResultado = document.getElementsByClassName('main-resultado')[0]
 const opcaoTextos = document.getElementsByClassName('opcao-texto');
 const pontucao = document.getElementById('contador-pontuacao');
 console.log(btn4)
@@ -29,6 +34,12 @@ function renderConteudo(){
         for(let i = 0; i < 4; ++i){
             opcaoTextos[i].textContent = listaOpcoes[c][i]
         }
+    }else{
+        estatistica.textContent = gabarito+'/4'
+        telaMain.classList.add('alin')
+        mainResultado.classList.remove('none')
+        telaFinal.classList.add('alin')
+        telaPerguntas.classList.add('none')
     }
     ++c
     ++k
@@ -118,5 +129,7 @@ addEventListener('click',(e)=>{
     } 
     opcaoCorreta = false;
 })
+
+
 
 
