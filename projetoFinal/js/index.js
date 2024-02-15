@@ -21,6 +21,16 @@ let c = 0
 let k = 0
 let gabarito = 0
 
+try {
+    document.getElementById('iniciar').addEventListener("click", () => {
+        const nome = prompt('Qual o seu nome?')
+        window.location.assign("perguntas.html")
+    });
+}
+catch {
+
+}
+
 function renderConteudo(){
 
     if(k < 3){

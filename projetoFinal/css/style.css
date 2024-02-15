@@ -24,7 +24,7 @@ body {
 
 }
 
-.iniciar{
+#iniciar{
     font-size: 32px;
     padding:10px 70px 10px 70px;
     color: #fff;
@@ -37,6 +37,6 @@ body {
     
 } 
 
-.iniciar:hover{
+#iniciar:hover{
   border: 3px solid white;
 }
