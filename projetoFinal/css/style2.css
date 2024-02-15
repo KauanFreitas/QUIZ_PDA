@@ -41,9 +41,6 @@ main{
     border-radius: 19px;
 
 }
-.perguntas p{
-
-}
 
 .display-left,
 .display-middle,
@@ -119,4 +116,36 @@ main{
     text-align: center;
     margin-left: 10px;
     margin-right: 5px;
+}
+
+.resultado-final{
+    color: white;
+    width: 300px;
+    height: 300px;
+    font-size: 75px;
+    border-radius: 50%;
+    background: linear-gradient(150deg,green,rgb(36, 171, 36),rgb(45, 195, 45)); ;
+}
+.alin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main-resultado{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: justify;
+}
+.resultado-titulo{
+    color: white;
+    font-size: 55px;
+    text-align: center;
+    
+}
+.none{
+    display: none;
 }
