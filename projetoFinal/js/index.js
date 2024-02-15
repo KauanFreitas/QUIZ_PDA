@@ -9,7 +9,7 @@ const pontucao = document.getElementById('contador-pontuacao');
 console.log(btn4)
 
 const listaGabarito = ['opcao-1','opcao-4','opcao-3','opcao-2']
-const listaPerguntas = ["da Inglaterra", "do Brasil","de Noruega "]
+const listaPerguntas = ["da Inglaterra", "do Brasil","da Noruega "]
 const listaOpcoes = [
     ['Budapeste', "Bogotá","Madrí","Londres"],
     ["Oslo", "Lisboa","Brasília","Moscou"],
