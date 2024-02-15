@@ -14,7 +14,7 @@ const pontucao = document.getElementById('contador-pontuacao');
 console.log(btn4)
 
 const listaGabarito = ['opcao-1','opcao-4','opcao-3','opcao-2']
-const listaPerguntas = ["da Inglaterra", "do Brasil","de Noruega "]
+const listaPerguntas = ["da Inglaterra", "do Brasil","da Noruega "]
 const listaOpcoes = [
     ['Budapeste', "Bogotá","Madrí","Londres"],
     ["Oslo", "Lisboa","Brasília","Moscou"],
@@ -25,6 +25,16 @@ const listaBtns = [btn1,btn2,btn3,btn4]
 let c = 0
 let k = 0
 let gabarito = 0
+
+try {
+    document.getElementById('iniciar').addEventListener("click", () => {
+        const nome = prompt('Qual o seu nome?')
+        window.location.assign("perguntas.html")
+    });
+}
+catch {
+
+}
 
 function renderConteudo(){
 
