@@ -3,7 +3,7 @@ body {
 
      height: 100vh;
      overflow-x: hidden;
-     background: linear-gradient(135deg,rgb(0, 60, 150),rgb(31, 95, 191),rgb(57, 102, 168));
+     background: url('../img/show.png') center center/cover no-repeat fixed; 
      font-family: 'Roboto', sans-serif;
 }
 
@@ -11,6 +11,11 @@ main{
     height: 100%;
    
 }
+
+.cor {
+    background: linear-gradient(135deg,#720918,#db2727,#ff6524, #db2727, #720918 );
+  }
+
 .iniciar{
     border: none;
     padding: 10px;
