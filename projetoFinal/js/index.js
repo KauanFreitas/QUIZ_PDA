@@ -71,7 +71,7 @@ btn1.addEventListener('click',()=>{
 
     }else{
         backgroundCorErrada(btn1)
-        k = 4
+        k = 3
     }
 
 })
@@ -85,7 +85,7 @@ btn2.addEventListener('click',()=>{
     
     }else{
         backgroundCorErrada(btn2)
-        k = 4
+        k = 3
     }
 
 })
@@ -98,7 +98,7 @@ btn3.addEventListener('click',()=>{
 
     }else{
         backgroundCorErrada(btn3)
-        k = 4
+        k = 3
     }
 })
 btn4.addEventListener('click',()=>{
@@ -110,7 +110,7 @@ btn4.addEventListener('click',()=>{
     }else{
 
         backgroundCorErrada(btn4)
-        k = 4
+        k = 3
     }
 })
 
