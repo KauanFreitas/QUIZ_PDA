@@ -14,7 +14,7 @@ body {
 
 }
 .main-img{
-  width: 564px;
+    max-width: 564px;
 } 
 .main{
   height: 100%;
@@ -39,4 +39,10 @@ body {
 
 #iniciar:hover{
   border: 3px solid white;
+}
+
+@media screen and (max-width: 600px){
+  .main-img{
+    max-width: 364px;
+  } 
 }
